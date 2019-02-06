@@ -1,0 +1,16 @@
+{
+  "name": "ssn-validator",
+  "version": "1.0.0",
+  "description": "Validates a social security number",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tape validators.test.js"
+  },
+  "author": "Isadora Persson",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "tape": "^4.9.2"
+  }
+}
